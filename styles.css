@@ -80,7 +80,7 @@ select:focus {
 }
 
 #songResult img {
-    max-width: 100%;
+    max-width: 250 px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
