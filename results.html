@@ -14,10 +14,20 @@
     </header>
 
     <div id="songResult">
-      <img id="albumCover" src="" alt="Album Cover" />
-      <h2 id="title"></h2>
-      <p id="artist"></p>
-      <a id="playNowButton" href="" target="_blank">Play Now</a>
+      <!-- Default content before song recommendation is fetched -->
+      <div id="loadingMessage">
+        <p>Loading your song recommendation...</p>
+      </div>
+
+      <div id="resultContainer" style="display:none;">
+        <div class="song-result">
+          <img id="albumCover" src="" alt="Album Cover" class="album-cover">
+          <h2 id="title"></h2>
+          <p id="artist"></p>
+          <a id="playNowButton" href="" target="_blank">Play Now</a>
+        </div>
+      </div>
+
       <button onclick="window.location.href = 'index.html';">Home</button>
     </div>
   </div>
@@ -45,8 +55,12 @@
         // Update the HTML elements with the selected song data
         document.getElementById('albumCover').src = song.albumCover;  // Album cover image
         document.getElementById('title').textContent = song.title;  // Song title
-        document.getElementById('artist').textContent = `${song.artist}`;  // Artist name
+        document.getElementById('artist').textContent = song.artist;  // Artist name
         document.getElementById('playNowButton').href = song.link;  // Play Now link
+
+        // Hide loading message and show result container
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('resultContainer').style.display = 'block';
       }
     }
 
