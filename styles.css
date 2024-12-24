@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #;
+  }
+  
+  button {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  select {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 15px auto;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #45a049;
+  }
+  
+  #songResult {
+    margin-top: 30px;
+  }
+  
+  #songResult img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  #songResult h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #songResult p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  #songResult a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #songResult a:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

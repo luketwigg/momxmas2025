@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Type</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Choose Your Song Type</h1>
+    </header>
+
+    <select id="musicType">
+      <option value="upbeat">Upbeat</option>
+      <option value="slow">Slow</option>
+      <option value="other">Other</option>
+      <option value="random">Random</option>
+    </select>
+
+    <button onclick="getRecommendation()">Get Recommendation</button>
+
+    <button onclick="window.location.href = 'index.html';">Home</button>
+  </div>
+
+  <script>
+    function getRecommendation() {
+      const musicType = document.getElementById("musicType").value;
+      localStorage.setItem('musicType', musicType);
+      window.location.href = "results.html";
+    }
+  </script>
+
+</body>
+</html>
