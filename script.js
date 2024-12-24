@@ -151,6 +151,16 @@ function displaySongRecommendation(song) {
                 <a id="playNowButton" href="${song.link}" target="_blank">Play Now</a>
             </div>
         `;
+
+        // Select the image element after it's been injected into the DOM
+        const albumCover = document.getElementById('albumCover');
+        if (albumCover) {
+            // Set the size of the album cover image
+            albumCover.style.width = '100px';
+            albumCover.style.height = '100px';
+            albumCover.style.objectFit = 'cover'; // Ensures image is not distorted
+            albumCover.style.borderRadius = '8px'; // Optional, adds rounded corners
+        }
     } else {
         resultContainer.innerHTML = '<p>No song found.</p>';
     }
