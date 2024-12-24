@@ -56,28 +56,34 @@ const personDatabases = {
   
     ian: {
       upbeat: [
-        { title: "Wake Me Up - Avicii", link: "https://open.spotify.com/track/2tq1NDrUMSezzPTHtKX9MF", albumCover: "https://link-to-album-cover.com/album41.jpg", artist: "Avicii" },
-        { title: "Happy - Pharrell Williams", link: "https://open.spotify.com/track/3l3jZGQyPx0LhXy7rwbcpD", albumCover: "https://link-to-album-cover.com/album42.jpg", artist: "Pharrell Williams" },
-        { title: "Can't Stop the Feeling! - Justin Timberlake", link: "https://open.spotify.com/track/0A4B2H8LgP7zQOSW0YbdxX", albumCover: "https://link-to-album-cover.com/album43.jpg", artist: "Justin Timberlake" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album44.jpg", artist: "The Weeknd" }
+        { title: "Until Then", link: "https://open.spotify.com/track/0jnI2o0HKJrRglMwp3nIVJ?si=1c80e58da471447a", albumCover: "images/jack.jpg", artist: "Chumpfrey" },
+        { title: "Hello Hello Hello", link: "https://open.spotify.com/track/1xNknVNOolLB4oQeEtNBX2?si=ba5732e6af874408", albumCover: "images/remi.png", artist: "Remi Wolf" },
+        { title: "Casual Encounters", link: "https://open.spotify.com/track/3rK5Wr5xSep1gHRLettcnO?si=16071e0f4d754e57", albumCover: "images/beach.jpg", artist: "Bench Fuzz & Natalie Crane" },
+        { title: "Omw", link: "https://open.spotify.com/track/3LqH8V4gEdmuH0mUjbceRc?si=57d779c288204849", albumCover: "images/omw.jpeg", artist: "((( O ))) & FKJ" },
+        { title: "Gonna Bleach My Eyebrows", link: "https://open.spotify.com/track/3zQHfHufmH496jyJmRrccJ?si=cce6f98fb6f640bd", albumCover: "images/bleach.jpeg", artist: "Alemeda" }
       ],
       slow: [
-        { title: "Someone Like You - Adele", link: "https://open.spotify.com/track/4kYwe8vnEgfIc0IEX9daGR", albumCover: "https://link-to-album-cover.com/album45.jpg", artist: "Adele" },
-        { title: "Let Her Go - Passenger", link: "https://open.spotify.com/track/1av4g78IMfN0vFkLjqNZZP", albumCover: "https://link-to-album-cover.com/album46.jpg", artist: "Passenger" },
-        { title: "Perfect - Ed Sheeran", link: "https://open.spotify.com/track/4nyzlkJ2Jw7mgNoPY2bBrX", albumCover: "https://link-to-album-cover.com/album47.jpg", artist: "Ed Sheeran" },
-        { title: "All of Me - John Legend", link: "https://open.spotify.com/track/5pJ3e8Jm5vLrxY6y74rWvc", albumCover: "https://link-to-album-cover.com/album48.jpg", artist: "John Legend" }
+        { title: "Nomad", link: "https://open.spotify.com/track/4WJPxTsvWIdRZ9vMtqk7fj?si=6aad2bf457574524", albumCover: "images/clairoglory.png", artist: "Clairo" },
+        { title: "Open My Door", link: "https://open.spotify.com/track/1A8QcZJKhUmJwdqzoAahvR?si=0fe27638556c479f", albumCover: "images/witches.jpg", artist: "Alice Phoebe Lou" },
+        { title: "Bushel Hyde", link: "https://open.spotify.com/track/6oeRdUqXFfueEqxEKU4Mbd?si=c3f1fb415d6841e1", albumCover: "images/pratt.jpg", artist: "Jessica Pratt" },
+        { title: "Call It Fate, Call It Karma", link: "https://open.spotify.com/track/3Y4rUyw7XBCK6hGHCOt6rp?si=4bf7f7c3492b4f87", albumCover: "https://link-to-album-cover.com/album47.jpg", artist: "The Strokes" },
+        { title: "Road Head", link: "https://open.spotify.com/track/5rQEom98vgByjAZ4kIw2kL?si=7824e41b0f5840b9", albumCover: "images/head.jpeg", artist: "Japanese Breakfast" }
       ],
       other: [
-        { title: "Take Me to Church - Hozier", link: "https://open.spotify.com/track/0Xz2G5R3XY0gnmLBdl0tt6", albumCover: "https://link-to-album-cover.com/album49.jpg", artist: "Hozier" },
-        { title: "Clocks - Coldplay", link: "https://open.spotify.com/track/0r5rYbu4tq55wdl1pHugxF", albumCover: "https://link-to-album-cover.com/album50.jpg", artist: "Coldplay" },
-        { title: "Smells Like Teen Spirit - Nirvana", link: "https://open.spotify.com/track/6Ej8FJklKFdeB0KftN5Yln", albumCover: "https://link-to-album-cover.com/album51.jpg", artist: "Nirvana" },
-        { title: "Bohemian Rhapsody - Queen", link: "https://open.spotify.com/track/7vBQxVQ7u5V07eoiXY0X6g", albumCover: "https://link-to-album-cover.com/album52.jpg", artist: "Queen" }
+        { title: "Murder On The Dancefloor", link: "https://open.spotify.com/track/4tKGFmENO69tZR9ahgZu48?si=bae236bad97a4564", albumCover: "images/murder.jpg", artist: "Sophie Ellis-Bextor" },
+        { title: "LOVE", link: "https://open.spotify.com/track/6PGoSes0D9eUDeeAafB2As?si=31724d1fd22b40a4", albumCover: "images/damn.png", artist: "Kendrick Lamar (Feat. Zacari)" },
+        { title: "Fill In The Blank", link: "https://open.spotify.com/track/0SVvyfRMFMRJzc0L2odX20?si=6789f0f380394ec3", albumCover: "images/car.png.jpeg", artist: "Car Sear Headrest" },
+        { title: "Witches", link: "https://open.spotify.com/track/5BBK1WoaiD3b3sJ2UysLuM?si=fe5ef2b2f68a47b8", albumCover: "images/door.jpeg", artist: "Allice Pheobe Lou" },
+        { title: "rises the moon", link: "https://open.spotify.com/track/51Grh1RyUDcMBbpuyUIUHI?si=179418a9533d4c80", albumCover: "images/flores.jpg", artist: "Liana Flores" }
+        { title: "I Wish I Was Stephen Malkmus", link: "https://open.spotify.com/track/0MXwuLvZU9cauIEXlMZcdC?si=8696a915ca8747f4", albumCover: "https://link-to-album-cover.com/album52.jpg", artist: "beabadoobee" }
       ],
       random: [
-        { title: "Old Town Road - Lil Nas X", link: "https://open.spotify.com/track/2cFZlVlx9a69D7RMT3bO5X", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Lil Nas X" },
-        { title: "God's Plan - Drake", link: "https://open.spotify.com/track/2nYc6TxCakUjqbZkpx90p6", albumCover: "https://link-to-album-cover.com/album54.jpg", artist: "Drake" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album55.jpg", artist: "The Weeknd" },
-        { title: "Levitating - Dua Lipa", link: "https://open.spotify.com/track/4nbt8jF47tAFdD5KD6yWn0", albumCover: "https://link-to-album-cover.com/album56.jpg", artist: "Dua Lipa" }
+        { title: "Wolfcat", link: "https://open.spotify.com/track/1Hu2OypX8tMPwBcCUaAeO4?si=7116958f5d724540", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Still Woozy" },
+        { title: "Lover, You Should've Come Over", link: "https://open.spotify.com/track/6Jv7kjGkhY2fT4yuBF3aTz?si=50ee691101db49d5", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Jeff Buckley" },
+        { title: "Vanilla Swirl", link: "https://open.spotify.com/track/07IGOY9oq3wMaM0y6hAoll?si=c7d6d00f004a4337", albumCover: "https://link-to-album-cover.com/album54.jpg", artist: "Mark Whalen" },
+        { title: "You Might Be Sleeping", link: "https://open.spotify.com/track/2KvbRojbZGMsWr1Nuj5n2f?si=f504b4c388ed4f99", albumCover: "https://link-to-album-cover.com/album55.jpg", artist: "Jakob & Clairo" },
+        { title: "Naruto Themed Sexting", link: "https://open.spotify.com/track/3yoGVIY5OrRIBvNA9PYOS7?si=f7981af3fbf54b0f", albumCover: "https://link-to-album-cover.com/album56.jpg", artist: "Panucci's Pizza" }
+        { title: "recently,", link: "https://open.spotify.com/track/1djCoU5rvnq2zXFyD2iqq4?si=e01eba7f42d6432b", albumCover: "images/flores.jpg", artist: "Liana Flores" }
       ]
     },
   
