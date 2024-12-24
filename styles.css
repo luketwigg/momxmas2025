@@ -1,9 +1,10 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #000;
@@ -12,114 +13,139 @@ body {
     padding: 0;
     margin: 0;
 }
-  
+
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
-  
+
 header {
     margin-bottom: 20px;
 }
-  
+
 header h1 {
     font-size: 28px;
     color: #fff; /* Fixed color */
 }
-  
+
+header p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff; /* Fixed color */
+}
+
+/* General button styles */
 button {
-    display: block;
-    width: 90%;
-    margin: 20px auto;
+    display: inline-block;
+    width: 90%;  /* Same width for all buttons */
     padding: 15px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #87CEEB;
+    color: rgb(97, 90, 90);
     font-size: 18px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-left: auto; /* Add automatic left margin */
+    margin-right: auto; /* Add automatic right margin */
+    margin-top: 15px; /* Optional: adds top margin for spacing between buttons */
 }
-  
+
 button:hover {
-    background-color: #45a049;
+    background-color: #87CEEB;
 }
-  
+
+/* Select Dropdown Styles */
 select {
     display: block;
-    width: 90%;
+    width: calc(90% - 40px); /* 90% width minus 40px for the 20px margins on both sides */
     padding: 10px;
     margin: 15px auto;
-    border: 2px solid #4CAF50;
+    border: 2px solid #87CEEB;
     border-radius: 8px;
     font-size: 16px;
     color: #333;
     background-color: #fff;
 }
-  
+
 select:focus {
     outline: none;
-    border-color: #45a049;
+    border-color: #87CEEB;
 }
-  
+
 #songResult {
     margin-top: 30px;
 }
-  
+
 #songResult img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
 }
-  
+
 #songResult h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-  
+
 #songResult p {
     font-size: 18px;
     margin-bottom: 15px;
 }
-  
+
+/* Play Now Button */
 #songResult a {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
+    width: 90%; /* Ensure consistency */
+    padding: 15px;
+    background-color: #87CEEB;
+    color: rgb(97, 90, 90);
+    font-size: 18px;
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
-  
+
 #songResult a:hover {
     background-color: #388e3c; /* Slightly different color for the link */
 }
-  
+
 @media (max-width: 600px) {
     body {
         padding: 10px;
     }
-  
+
     .container {
         padding: 10px;
     }
-  
+
     header h1 {
         font-size: 24px;
     }
-  
+
+    header p {
+        font-size: 14px;
+    }
+
     button {
         font-size: 16px;
         padding: 12px;
     }
-  
+
     select {
         font-size: 14px;
         padding: 8px;
+    }
+
+    /* Adjust Play Now button on small screens */
+    #songResult a {
+        font-size: 16px;
+        padding: 12px;
     }
 }
