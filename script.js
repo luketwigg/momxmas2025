@@ -108,14 +108,11 @@ const personDatabases = {
       ]
     }
   };
-  
-
-// Assuming the database and other code are already defined above this
 
 function selectSongType(type) {
     const song = getRandomSong(type);
 
-    console.log("Selected song:", song);  // Debugging line
+    console.log("Selected song:", song);
 
     if (song) {
         displaySongRecommendation(song);
@@ -126,19 +123,19 @@ function selectSongType(type) {
 
 function getRandomSong(category) {
     const songCategory = getPersonDatabase(selectedPerson)[category];
-    console.log('Song category:', songCategory);  // Debugging line
+    console.log('Song category:', songCategory);
 
     if (!songCategory) return null;
 
     const randomIndex = Math.floor(Math.random() * songCategory.length);
     const selectedSong = songCategory[randomIndex];
-    console.log('Random song selected:', selectedSong);  // Debugging line
+    console.log('Random song selected:', selectedSong);
 
     return selectedSong;
 }
 
 function displaySongRecommendation(song) {
-    console.log(song);  // Check if song object contains correct data
+    console.log(song);
 
     const resultContainer = document.getElementById('resultContainer');
 
@@ -161,7 +158,7 @@ function displaySongRecommendation(song) {
 
 function selectPerson(person) {
     selectedPerson = person;
-    console.log('Selected person:', selectedPerson);  // Debugging line
+    console.log('Selected person:', selectedPerson);
     document.getElementById('songTypePage').style.display = 'block';
     document.getElementById('personSelectionPage').style.display = 'none';
 }
