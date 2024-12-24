@@ -83,10 +83,10 @@ const personDatabases = {
   
     luke: {
       upbeat: [
-        { title: "Book of Life", link: "https://open.spotify.com/track/4tWtLjreDU4443LRv2CXmc?si=U9HwL0n4S7Go7wcG1eivKw", albumCover: "https://github.com/momxmas2025/images/hi-tech.jpeg", artist: "Hi-Tech" },
-        { title: "You're Too Late", link: "https://open.spotify.com/track/1hiKryaNX1kwtVxc8h80zZ", albumCover: "https://github.com/momxmas2025/images/fantacy.jpeg", artist: "Fantacy" },
-        { title: "BIRDS OF A FEATHER", link: "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=oGJYq-ogTaa025-4qrWDIw", albumCover: "https://github.com/momxmas2025/images/billie-eilish.jpeg", artist: "Billie Eilish" },
-        { title: "Lavender Buds", link: "https://open.spotify.com/track/5j42r1PmIbM6fZSe11O08C?si=w1YEmxYqSR21ITMgX7WzEA", albumCover: "https://github.com/momxmas2025/images/mfdoom.jpg", artist: "MF DOOM" }
+        { title: "Book of Life", link: "https://open.spotify.com/track/4tWtLjreDU4443LRv2CXmc?si=U9HwL0n4S7Go7wcG1eivKw", albumCover: "images/hi-tech.jpeg", artist: "Hi-Tech" },
+        { title: "You're Too Late", link: "https://open.spotify.com/track/1hiKryaNX1kwtVxc8h80zZ", albumCover: "images/fantacy.jpeg", artist: "Fantacy" },
+        { title: "BIRDS OF A FEATHER", link: "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=oGJYq-ogTaa025-4qrWDIw", albumCover: "images/billie-eilish.jpeg", artist: "Billie Eilish" },
+        { title: "Lavender Buds", link: "https://open.spotify.com/track/5j42r1PmIbM6fZSe11O08C?si=w1YEmxYqSR21ITMgX7WzEA", albumCover: "images/mfdoom.jpg", artist: "MF DOOM" }
       ],
       slow: [
         { title: "CryBaby", link: "https://open.spotify.com/track/1g7pFO1WtclKCuIQiS8sNM?si=wInm1upMTsy7Lj3l_QLlRA", albumCover: "momxmas2025/images/sza.jpeg", artist: "SZA" },
