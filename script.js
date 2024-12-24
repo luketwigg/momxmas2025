@@ -83,28 +83,28 @@ const personDatabases = {
   
     luke: {
       upbeat: [
-        { title: "Book of Life", link: "https://open.spotify.com/track/4tWtLjreDU4443LRv2CXmc?si=U9HwL0n4S7Go7wcG1eivKw", albumCover: "https://link-to-album-cover.com/album57.jpg", artist: "Hi-Tech" },
-        { title: "You're Too Late", link: "https://open.spotify.com/track/1hiKryaNX1kwtVxc8h80zZ", albumCover: "https://link-to-album-cover.com/album58.jpg", artist: "Fantacy" },
-        { title: "BIRDS OF A FEATHER", link: "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=oGJYq-ogTaa025-4qrWDIw", albumCover: "https://link-to-album-cover.com/album59.jpg", artist: "Billie Eilish" },
-        { title: "Lavender Buds", link: "https://open.spotify.com/track/5j42r1PmIbM6fZSe11O08C?si=w1YEmxYqSR21ITMgX7WzEA", albumCover: "https://link-to-album-cover.com/album60.jpg", artist: "MF DOOM" }
+        { title: "Book of Life", link: "https://open.spotify.com/track/4tWtLjreDU4443LRv2CXmc?si=U9HwL0n4S7Go7wcG1eivKw", albumCover: "images/hi-tech.jpeg", artist: "Hi-Tech" },
+        { title: "You're Too Late", link: "https://open.spotify.com/track/1hiKryaNX1kwtVxc8h80zZ", albumCover: "images/fantacy.jpeg", artist: "Fantacy" },
+        { title: "BIRDS OF A FEATHER", link: "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=oGJYq-ogTaa025-4qrWDIw", albumCover: "images/billie-eilish.jpeg", artist: "Billie Eilish" },
+        { title: "Lavender Buds", link: "https://open.spotify.com/track/5j42r1PmIbM6fZSe11O08C?si=w1YEmxYqSR21ITMgX7WzEA", albumCover: "images/mfdoom.jpg", artist: "MF DOOM" }
       ],
       slow: [
-        { title: "CryBaby", link: "https://open.spotify.com/track/1g7pFO1WtclKCuIQiS8sNM?si=wInm1upMTsy7Lj3l_QLlRA", albumCover: "https://link-to-album-cover.com/album61.jpg", artist: "SZA" },
-        { title: "Still Beating", link: "https://open.spotify.com/track/4LpUpiYoZ2M3Z1kmhn4EQo", albumCover: "https://link-to-album-cover.com/album62.jpg", artist: "Mac DeMarco" },
-        { title: "Love Affair", link: "https://open.spotify.com/track/2gUKcorABKuubRsTh2bL5e", albumCover: "https://link-to-album-cover.com/album63.jpg", artist: "Larry Lovestein & The Velvet Revival" },
-        { title: "Black Memories", link: "https://open.spotify.com/track/571hDJQ2yYvOlvEZy6F00V?si=QAczXEK4S0yWD1s4bCAt8w", albumCover: "https://link-to-album-cover.com/album64.jpg", artist: "The Growlers" }
+        { title: "CryBaby", link: "https://open.spotify.com/track/1g7pFO1WtclKCuIQiS8sNM?si=wInm1upMTsy7Lj3l_QLlRA", albumCover: "images/sza.jpeg", artist: "SZA" },
+        { title: "Still Beating", link: "https://open.spotify.com/track/4LpUpiYoZ2M3Z1kmhn4EQo", albumCover: "images/mac.jpg", artist: "Mac DeMarco" },
+        { title: "Love Affair", link: "https://open.spotify.com/track/2gUKcorABKuubRsTh2bL5e", albumCover: "images/you.jpg", artist: "Larry Lovestein & The Velvet Revival" },
+        { title: "Black Memories", link: "https://open.spotify.com/track/571hDJQ2yYvOlvEZy6F00V?si=QAczXEK4S0yWD1s4bCAt8w", albumCover: "images/growl.jpg.webp", artist: "The Growlers" }
       ],
       other: [
-        { title: "MUSTARD", link: "https://open.spotify.com/track/1vITRP5ITGjLK5v8LjjVo0?si=OwH9tPXwQUyRrqOjQJQ0_Q", artist: "Jordan Ward (Feat. 6LACK)" },
-        { title: "Glory of the Snow", link: "https://open.spotify.com/track/4JLBaHFkjxnbf9X0D8G3zQ?si=47199a5a132b486b", albumCover: "https://link-to-album-cover.com/album66.jpg", artist: "Clairo" },
-        { title: "Candy", link: "https://open.spotify.com/track/6TeJroHNM4rXP4GluTvKXV?si=32fa96a165a2480d", albumCover: "https://link-to-album-cover.com/album67.jpg", artist: "Mk.gee" },
-        { title: "Not Allowed", link: "https://open.spotify.com/track/3IznIgmXtrUaoPWpQTy5jB?si=945eea9f08564308", albumCover: "https://link-to-album-cover.com/album68.jpg", artist: "TV Girl" }
+        { title: "MUSTARD", link: "https://open.spotify.com/track/1vITRP5ITGjLK5v8LjjVo0?si=OwH9tPXwQUyRrqOjQJQ0_Q", albumCover: "images/jordan.jpeg", artist: "Jordan Ward (Feat. 6LACK)" },
+        { title: "Glory of the Snow", link: "https://open.spotify.com/track/4JLBaHFkjxnbf9X0D8G3zQ?si=47199a5a132b486b", albumCover: "images/clairoglory.png", artist: "Clairo" },
+        { title: "Candy", link: "https://open.spotify.com/track/6TeJroHNM4rXP4GluTvKXV?si=32fa96a165a2480d", albumCover: "images/mk.jpg", artist: "Mk.gee" },
+        { title: "Not Allowed", link: "https://open.spotify.com/track/3IznIgmXtrUaoPWpQTy5jB?si=945eea9f08564308", albumCover: "images/tv.jpg", artist: "TV Girl" }
       ],
       random: [
-        { title: "Bags", link: "https://open.spotify.com/track/6UFivO2zqqPFPoQYsEMuCc?si=2eece8e2c1164148", albumCover: "https://link-to-album-cover.com/album69.jpg", artist: "Clairo" },
-        { title: "Slim Pickins", link: "https://open.spotify.com/track/0XkZmBCCcdMY0EPY8ij6Gb?si=7eaf369a02e74403", albumCover: "https://link-to-album-cover.com/album70.jpg", artist: "Sabrina Carpenter" },
-        { title: "Moments", link: "https://open.spotify.com/track/3DLlsSUvnQG2WIJSy044AN?si=c57005c57c9e4e3e", albumCover: "https://link-to-album-cover.com/album71.jpg", artist: "MOIO" },
-        { title: "unexplainable", link: "https://open.spotify.com/track/17Y34TYILFtfEB9hLsxdnD?si=1783ff16ea964286", albumCover: "https://link-to-album-cover.com/album72.jpg", artist: "Yot Club" }
+        { title: "Bags", link: "https://open.spotify.com/track/6UFivO2zqqPFPoQYsEMuCc?si=2eece8e2c1164148", albumCover: "images/bags.jpeg", artist: "Clairo" },
+        { title: "Slim Pickins", link: "https://open.spotify.com/track/0XkZmBCCcdMY0EPY8ij6Gb?si=7eaf369a02e74403", albumCover: "images/sab.png", artist: "Sabrina Carpenter" },
+        { title: "Moments", link: "https://open.spotify.com/track/3DLlsSUvnQG2WIJSy044AN?si=c57005c57c9e4e3e", albumCover: "images/moments.jpg", artist: "MOIO" },
+        { title: "unexplainable", link: "https://open.spotify.com/track/17Y34TYILFtfEB9hLsxdnD?si=1783ff16ea964286", albumCover: "images/yot.jpeg", artist: "Yot Club" }
       ]
     }
   };
@@ -145,10 +145,10 @@ function displaySongRecommendation(song) {
     if (song) {
         resultContainer.innerHTML = `
             <div class="song-result">
-                <img src="${song.albumCover}" alt="${song.title} album cover" class="album-cover">
-                <h2>${song.title || "Unknown Title"}</h2>  <!-- Fallback text if title is missing -->
-                <p class="artist">${song.artist || "Unknown Artist"}</p>  <!-- Fallback text if artist is missing -->
-                <a href="${song.link}" class="play-button" target="_blank">Play Now</a>
+                <img id="albumCover" src="${song.albumCover}" alt="${song.title} album cover" class="album-cover">
+                <h2 id="title">${song.title || "Unknown Title"}</h2>
+                <p id="artist" class="artist">${song.artist || "Unknown Artist"}</p>
+                <a id="playNowButton" href="${song.link}" target="_blank">Play Now</a>
             </div>
         `;
     } else {
