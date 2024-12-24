@@ -14,16 +14,48 @@
     </header>
 
     <div id="songResult">
-      <img id="albumCover" src="" alt="Album Cover">
-      <h2 id="songTitle"></h2>
-      <p id="artistName"></p>
+      <img id="albumCover" src="" alt="Album Cover" />
+      <h2 id="title"></h2>
+      <p id="artist"></p>
       <a id="playNowButton" href="" target="_blank">Play Now</a>
       <button onclick="window.location.href = 'index.html';">Home</button>
     </div>
-    </div>
   </div>
 
-  <script src="result.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    // Get the selected person and song type from localStorage
+    const selectedPerson = localStorage.getItem('selectedPerson');
+    const musicType = localStorage.getItem('musicType');
+
+    // Check if there's a valid person and music type
+    if (!selectedPerson || !musicType) {
+      document.getElementById('songResult').innerHTML = '<p>No selection made. Please go back and choose a person and music type.</p>';
+    } else {
+      // Select the person and get their song database
+      const personDatabase = personDatabases[selectedPerson];
+
+      if (!personDatabase || !personDatabase[musicType]) {
+        document.getElementById('songResult').innerHTML = '<p>No song recommendations found for this person and music type.</p>';
+      } else {
+        // Get a random song from the selected category
+        const song = getRandomSong(personDatabase[musicType]);
+
+        // Update the HTML elements with the selected song data
+        document.getElementById('albumCover').src = song.albumCover;  // Album cover image
+        document.getElementById('title').textContent = song.title;  // Song title
+        document.getElementById('artist').textContent = `${song.artist}`;  // Artist name
+        document.getElementById('playNowButton').href = song.link;  // Play Now link
+      }
+    }
+
+    // Function to select a random song from the list
+    function getRandomSong(songCategory) {
+      const randomIndex = Math.floor(Math.random() * songCategory.length);
+      return songCategory[randomIndex];
+    }
+  </script>
 
 </body>
 </html>

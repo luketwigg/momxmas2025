@@ -116,6 +116,24 @@ select:focus {
     background-color: #388e3c; /* Slightly different color for the link */
 }
 
+.new-option-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.new-option-button:hover {
+    background-color: #e64a19;
+}
+
+
 @media (max-width: 600px) {
     body {
         padding: 10px;

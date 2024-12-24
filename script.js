@@ -1,3 +1,4 @@
+
 const personDatabases = {
     adam: {
       upbeat: [
@@ -82,81 +83,87 @@ const personDatabases = {
   
     luke: {
       upbeat: [
-        { title: "Can't Stop the Feeling! - Justin Timberlake", link: "https://open.spotify.com/track/0A4B2H8LgP7zQOSW0YbdxX", albumCover: "https://link-to-album-cover.com/album57.jpg", artist: "Justin Timberlake" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album58.jpg", artist: "The Weeknd" },
-        { title: "Shape of You - Ed Sheeran", link: "https://open.spotify.com/track/0hrBpAOgrt8VXdx8a1X4b2", albumCover: "https://link-to-album-cover.com/album59.jpg", artist: "Ed Sheeran" },
-        { title: "Uptown Funk - Mark Ronson ft. Bruno Mars", link: "https://open.spotify.com/track/0g1OsbIoBDleIi9Z1BvFqt", albumCover: "https://link-to-album-cover.com/album60.jpg", artist: "Mark Ronson ft. Bruno Mars" }
+        { title: "Book of Life", link: "https://open.spotify.com/track/4tWtLjreDU4443LRv2CXmc?si=U9HwL0n4S7Go7wcG1eivKw", albumCover: "https://link-to-album-cover.com/album57.jpg", artist: "Hi-Tech" },
+        { title: "You're Too Late", link: "https://open.spotify.com/track/1hiKryaNX1kwtVxc8h80zZ", albumCover: "https://link-to-album-cover.com/album58.jpg", artist: "Fantacy" },
+        { title: "BIRDS OF A FEATHER", link: "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=oGJYq-ogTaa025-4qrWDIw", albumCover: "https://link-to-album-cover.com/album59.jpg", artist: "Billie Eilish" },
+        { title: "Lavender Buds", link: "https://open.spotify.com/track/5j42r1PmIbM6fZSe11O08C?si=w1YEmxYqSR21ITMgX7WzEA", albumCover: "https://link-to-album-cover.com/album60.jpg", artist: "MF DOOM" }
       ],
       slow: [
-        { title: "Someone Like You - Adele", link: "https://open.spotify.com/track/4kYwe8vnEgfIc0IEX9daGR", albumCover: "https://link-to-album-cover.com/album61.jpg", artist: "Adele" },
-        { title: "Stay - Rihanna", link: "https://open.spotify.com/track/2QqOEc5AK8UxuUy9Q6mB8C", albumCover: "https://link-to-album-cover.com/album62.jpg", artist: "Rihanna" },
-        { title: "Let Her Go - Passenger", link: "https://open.spotify.com/track/1av4g78IMfN0vFkLjqNZZP", albumCover: "https://link-to-album-cover.com/album63.jpg", artist: "Passenger" },
-        { title: "All of Me - John Legend", link: "https://open.spotify.com/track/5pJ3e8Jm5vLrxY6y74rWvc", albumCover: "https://link-to-album-cover.com/album64.jpg", artist: "John Legend" }
+        { title: "CryBaby", link: "https://open.spotify.com/track/1g7pFO1WtclKCuIQiS8sNM?si=wInm1upMTsy7Lj3l_QLlRA", albumCover: "https://link-to-album-cover.com/album61.jpg", artist: "SZA" },
+        { title: "Still Beating", link: "https://open.spotify.com/track/4LpUpiYoZ2M3Z1kmhn4EQo", albumCover: "https://link-to-album-cover.com/album62.jpg", artist: "Mac DeMarco" },
+        { title: "Love Affair", link: "https://open.spotify.com/track/2gUKcorABKuubRsTh2bL5e", albumCover: "https://link-to-album-cover.com/album63.jpg", artist: "Larry Lovestein & The Velvet Revival" },
+        { title: "Black Memories", link: "https://open.spotify.com/track/571hDJQ2yYvOlvEZy6F00V?si=QAczXEK4S0yWD1s4bCAt8w", albumCover: "https://link-to-album-cover.com/album64.jpg", artist: "The Growlers" }
       ],
       other: [
-        { title: "Bohemian Rhapsody - Queen", link: "https://open.spotify.com/track/7vBQxVQ7u5V07eoiXY0X6g", albumCover: "https://link-to-album-cover.com/album65.jpg", artist: "Queen" },
-        { title: "Take Me to Church - Hozier", link: "https://open.spotify.com/track/0Xz2G5R3XY0gnmLBdl0tt6", albumCover: "https://link-to-album-cover.com/album66.jpg", artist: "Hozier" },
-        { title: "Clocks - Coldplay", link: "https://open.spotify.com/track/0r5rYbu4tq55wdl1pHugxF", albumCover: "https://link-to-album-cover.com/album67.jpg", artist: "Coldplay" },
-        { title: "Smells Like Teen Spirit - Nirvana", link: "https://open.spotify.com/track/6Ej8FJklKFdeB0KftN5Yln", albumCover: "https://link-to-album-cover.com/album68.jpg", artist: "Nirvana" }
+        { title: "MUSTARD", link: "https://open.spotify.com/track/1vITRP5ITGjLK5v8LjjVo0?si=OwH9tPXwQUyRrqOjQJQ0_Q", artist: "Jordan Ward (Feat. 6LACK)" },
+        { title: "Glory of the Snow", link: "https://open.spotify.com/track/4JLBaHFkjxnbf9X0D8G3zQ?si=47199a5a132b486b", albumCover: "https://link-to-album-cover.com/album66.jpg", artist: "Clairo" },
+        { title: "Candy", link: "https://open.spotify.com/track/6TeJroHNM4rXP4GluTvKXV?si=32fa96a165a2480d", albumCover: "https://link-to-album-cover.com/album67.jpg", artist: "Mk.gee" },
+        { title: "Not Allowed", link: "https://open.spotify.com/track/3IznIgmXtrUaoPWpQTy5jB?si=945eea9f08564308", albumCover: "https://link-to-album-cover.com/album68.jpg", artist: "TV Girl" }
       ],
       random: [
-        { title: "Old Town Road - Lil Nas X", link: "https://open.spotify.com/track/2cFZlVlx9a69D7RMT3bO5X", albumCover: "https://link-to-album-cover.com/album69.jpg", artist: "Lil Nas X" },
-        { title: "God's Plan - Drake", link: "https://open.spotify.com/track/2nYc6TxCakUjqbZkpx90p6", albumCover: "https://link-to-album-cover.com/album70.jpg", artist: "Drake" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album71.jpg", artist: "The Weeknd" },
-        { title: "Levitating - Dua Lipa", link: "https://open.spotify.com/track/4nbt8jF47tAFdD5KD6yWn0", albumCover: "https://link-to-album-cover.com/album72.jpg", artist: "Dua Lipa" }
+        { title: "Bags", link: "https://open.spotify.com/track/6UFivO2zqqPFPoQYsEMuCc?si=2eece8e2c1164148", albumCover: "https://link-to-album-cover.com/album69.jpg", artist: "Clairo" },
+        { title: "Slim Pickins", link: "https://open.spotify.com/track/0XkZmBCCcdMY0EPY8ij6Gb?si=7eaf369a02e74403", albumCover: "https://link-to-album-cover.com/album70.jpg", artist: "Sabrina Carpenter" },
+        { title: "Moments", link: "https://open.spotify.com/track/3DLlsSUvnQG2WIJSy044AN?si=c57005c57c9e4e3e", albumCover: "https://link-to-album-cover.com/album71.jpg", artist: "MOIO" },
+        { title: "unexplainable", link: "https://open.spotify.com/track/17Y34TYILFtfEB9hLsxdnD?si=1783ff16ea964286", albumCover: "https://link-to-album-cover.com/album72.jpg", artist: "Yot Club" }
       ]
     }
   };
   
 
-function getPersonDatabase(person) {
-    return personDatabases[person] || {};
-  }
-  
-  function getRandomSong(category) {
-    const songCategory = getPersonDatabase(selectedPerson)[category];
-    if (!songCategory) return null;
-  
-    const randomIndex = Math.floor(Math.random() * songCategory.length);
-    return songCategory[randomIndex];
-  }
-  
-  let selectedPerson = '';
-  
-  function selectPerson(person) {
-    selectedPerson = person;
-    document.getElementById('songTypePage').style.display = 'block';
-    document.getElementById('personSelectionPage').style.display = 'none';
-  }
-  
-  function selectSongType(type) {
+// Assuming the database and other code are already defined above this
+
+function selectSongType(type) {
     const song = getRandomSong(type);
-  
+
+    console.log("Selected song:", song);  // Debugging line
+
     if (song) {
-      displaySongRecommendation(song);
+        displaySongRecommendation(song);
     } else {
-      alert("Sorry, no songs found for this category.");
+        alert("Sorry, no songs found for this category.");
     }
-  }
-  
-  function displaySongRecommendation(song) {
+}
+
+function getRandomSong(category) {
+    const songCategory = getPersonDatabase(selectedPerson)[category];
+    console.log('Song category:', songCategory);  // Debugging line
+
+    if (!songCategory) return null;
+
+    const randomIndex = Math.floor(Math.random() * songCategory.length);
+    const selectedSong = songCategory[randomIndex];
+    console.log('Random song selected:', selectedSong);  // Debugging line
+
+    return selectedSong;
+}
+
+function displaySongRecommendation(song) {
+    console.log(song);  // Check if song object contains correct data
+
     const resultContainer = document.getElementById('resultContainer');
-    resultContainer.innerHTML = `
-      <div class="song-result">
-        <img src="${song.albumCover}" alt="${song.title} album cover" class="album-cover">
-        <h2>${song.title}</h2>
-        <p class="artist">${song.artist}</p>
-        <a href="${song.link}" class="play-button" target="_blank">Play Now</a>
-      </div>
-    `;
+
+    if (song) {
+        resultContainer.innerHTML = `
+            <div class="song-result">
+                <img src="${song.albumCover}" alt="${song.title} album cover" class="album-cover">
+                <h2>${song.title || "Unknown Title"}</h2>  <!-- Fallback text if title is missing -->
+                <p class="artist">${song.artist || "Unknown Artist"}</p>  <!-- Fallback text if artist is missing -->
+                <a href="${song.link}" class="play-button" target="_blank">Play Now</a>
+            </div>
+        `;
+    } else {
+        resultContainer.innerHTML = '<p>No song found.</p>';
+    }
+
     document.getElementById('resultPage').style.display = 'block';
     document.getElementById('songTypePage').style.display = 'none';
-  }
-  
-  function init() {
-    document.getElementById('songTypePage').style.display = 'none';
-    document.getElementById('resultPage').style.display = 'none';
-  }
-  
-  window.onload = init;
-  
+}
+
+function selectPerson(person) {
+    selectedPerson = person;
+    console.log('Selected person:', selectedPerson);  // Debugging line
+    document.getElementById('songTypePage').style.display = 'block';
+    document.getElementById('personSelectionPage').style.display = 'none';
+}
+
+
