@@ -1,11 +1,16 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Reset margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set the Poppins font as the default */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #000;
     color: #fff;
     line-height: 1.5;
@@ -13,6 +18,7 @@ body {
     margin: 0;
 }
 
+/* Container for centering and max-width */
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -20,27 +26,34 @@ body {
     text-align: center;
 }
 
+/* Header styles */
 header {
     margin-bottom: 20px;
 }
 
-header h1 {
-    font-size: 40px;
+/* Titles (h1 and h2) should have a bolder weight */
+section h1 {
+    font-size: 55px;
     color: #fff;
+    font-weight: 700;  /* Bold weight for titles */
 }
 
-header p {
-    margin-top: 50px;
-    font-size: 30px;
+section p {
+    margin: 50px;
+    font-size: 18px;
     color: #fff;
+    font-weight: 400;  /* Regular weight for paragraph text */
 }
 
-header h2 {
-    margin-top: 20px;
-    font-size: 14px;
+section h2 {
+    margin: 20px;
+    font-size: 15px;
     color: #fff;
+    font-weight: 600;  /* Semi-bold for h2 */
+    text-decoration: underline;
 }
 
+/* Button styles */
 button {
     display: inline-block;
     width: 90%;
@@ -48,6 +61,7 @@ button {
     background-color: #87CEEB;
     color: rgb(97, 90, 90);
     font-size: 18px;
+    font-weight: 600;  /* Semi-bold weight for button text */
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -61,6 +75,7 @@ button:hover {
     background-color: #539bb7;
 }
 
+/* Styles for the select dropdown */
 select {
     display: block;
     width: calc(90% - 40px);
@@ -71,6 +86,7 @@ select {
     font-size: 16px;
     color: #333;
     background-color: #fff;
+    font-weight: 400;  /* Regular weight for select */
 }
 
 select:focus {
@@ -78,6 +94,7 @@ select:focus {
     border-color: #87CEEB;
 }
 
+/* Song result section styles */
 #songResult {
     margin-top: 30px;
 }
@@ -92,11 +109,13 @@ select:focus {
 #songResult h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 600;  /* Semi-bold for h2 in song results */
 }
 
 #songResult p {
     font-size: 18px;
     margin-bottom: 15px;
+    font-weight: 400;  /* Regular weight for song description */
 }
 
 #songResult a {
@@ -112,12 +131,14 @@ select:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    font-weight: 600;  /* Semi-bold for link button */
 }
 
 #songResult a:hover {
     background-color: #539bb7;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 600px) {
     body {
         padding: 10px;
