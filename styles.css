@@ -26,6 +26,13 @@ body {
     text-align: center;
 }
 
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 /* Header styles */
 header {
     margin-bottom: 20px;
