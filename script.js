@@ -5,7 +5,7 @@ const personDatabases = {
         { title: "You Only Live Once", link: "https://open.spotify.com/track/4fPBB44eDH71YohayI4eKV?si=4b5e1def134c425f", albumCover: "images/stroke.jpeg", artist: "The Strokes" },
         { title: "This Life", link: "https://open.spotify.com/track/4dRqYKhLVujxiBXcq50YzG?si=91aff99c9a954389", albumCover: "images/vamp.jpg", artist: "Vampire Weekend" },
         { title: "Fancy Like", link: "https://open.spotify.com/track/58UKC45GPNTflCN6nwCUeF?si=ba2ca7e2db014bb5", albumCover: "images/ab67616d0000b273cc1ed62132516aabf6ef8751.jpeg", artist: "Walker Hayes" },
-        { title: "Can't Stop the Feeling! - Justin Timberlake", link: "https://open.spotify.com/track/0A4B2H8LgP7zQOSW0YbdxX", albumCover: "https://link-to-album-cover.com/album4.jpg", artist: "Justin Timberlake" }
+        { title: "Softly", link: "https://open.spotify.com/track/4PvbbMYL4fkToni5BLaYRb?si=c7d468dd0720492c", albumCover: "images/bags.jpeg", artist: "Clairo" }
       ],
       slow: [
         { title: "Harmony Hall", link: "https://open.spotify.com/track/4fPBB44eDH71YohayI4eKV?si=4b5e1def134c425f", albumCover: "images/vamp.jpg", artist: "Vampire Weekend" },
@@ -16,14 +16,14 @@ const personDatabases = {
       other: [
         { title: "I Wanna Be Yours", link: "https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n?si=a811c3e957304087", albumCover: "images/i.jpeg", artist: "Arctic Monkeys" },
         { title: "We Can Work It Out", link: "https://open.spotify.com/track/1hTUFqJuQAMjXVGwUPWDqi?si=c15c9652b7534284", albumCover: "images/beatles.jpg", artist: "The Beatles" },
-        { title: "Clocks - Coldplay", link: "https://open.spotify.com/track/0r5rYbu4tq55wdl1pHugxF", albumCover: "https://link-to-album-cover.com/album11.jpg", artist: "Coldplay" },
+        { title: "Chill Baby", link: "https://open.spotify.com/track/0qpdzfTxAkOREtvvGO5oew?si=a9737190971245fd", albumCover: "images/sza.jpeg", artist: "SZA" },
         { title: "Northern Attitude", link: "https://open.spotify.com/track/5FgPwJ7Nh2FVmIXviKl2VF?si=88e0db1ed42d4960", albumCover: "images/noah.jpg", artist: "Noah Kahan" }
       ],
       random: [
-        { title: "Old Town Road - Lil Nas X", link: "https://open.spotify.com/track/2cFZlVlx9a69D7RMT3bO5X", albumCover: "https://link-to-album-cover.com/album13.jpg", artist: "Lil Nas X" },
-        { title: "God's Plan - Drake", link: "https://open.spotify.com/track/2nYc6TxCakUjqbZkpx90p6", albumCover: "https://link-to-album-cover.com/album14.jpg", artist: "Drake" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album15.jpg", artist: "The Weeknd" },
-        { title: "Levitating - Dua Lipa", link: "https://open.spotify.com/track/4nbt8jF47tAFdD5KD6yWn0", albumCover: "https://link-to-album-cover.com/album16.jpg", artist: "Dua Lipa" }
+        { title: "Terrapin", link: "https://open.spotify.com/track/32fwe7MW5koort1Ua3YFx6?si=f1d4094a2d7b4053", albumCover: "images/clairoglory.png", artist: "Clairo" },
+        { title: "Down Bad", link: "https://open.spotify.com/track/0vjpfpch27QUf1cUs4seDl?si=09fb0087d27d4e21", albumCover: "images/yot.jpeg", artist: "Drake" },
+        { title: "Are You Looking Up", link: "https://open.spotify.com/track/1sWYVBg7ix2WAq43J9nY7E?si=1cba2b22659f4ad3", albumCover: "images/mk.jpg", artist: "Mk.gee" },
+        { title: "311", link: "https://open.spotify.com/track/5cKRhjcflNOmlI2fqXBhjI?si=bc0114c2dd71428b", albumCover: "imagesjordan.jpeg" artist: "Jordan Ward & Gwen Bunn" }
       ]
     },
   
