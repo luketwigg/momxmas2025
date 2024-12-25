@@ -23,7 +23,7 @@ const personDatabases = {
         { title: "Terrapin", link: "https://open.spotify.com/track/32fwe7MW5koort1Ua3YFx6?si=f1d4094a2d7b4053", albumCover: "images/clairoglory.png", artist: "Clairo" },
         { title: "Down Bad", link: "https://open.spotify.com/track/0vjpfpch27QUf1cUs4seDl?si=09fb0087d27d4e21", albumCover: "images/yot.jpeg", artist: "Drake" },
         { title: "Are You Looking Up", link: "https://open.spotify.com/track/1sWYVBg7ix2WAq43J9nY7E?si=1cba2b22659f4ad3", albumCover: "images/mk.jpg", artist: "Mk.gee" },
-        { title: "311", link: "https://open.spotify.com/track/5cKRhjcflNOmlI2fqXBhjI?si=bc0114c2dd71428b", albumCover: "imagesjordan.jpeg" artist: "Jordan Ward & Gwen Bunn" }
+        { title: "311", link: "https://open.spotify.com/track/5cKRhjcflNOmlI2fqXBhjI?si=bc0114c2dd71428b", albumCover: "imagesjordan.jpeg", artist: "Jordan Ward & Gwen Bunn" }
       ]
     },
   
