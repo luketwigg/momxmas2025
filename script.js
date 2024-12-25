@@ -29,28 +29,28 @@ const personDatabases = {
   
     julia: {
       upbeat: [
-        { title: "My Favorite Girl Loves Reading", link: "https://open.spotify.com/track/1y25WaAvFJos46JJGjE0pA?si=7a38a523644c4774", albumCover: "https://link-to-album-cover.com/album21.jpg", artist: "Foxtide" },
-        { title: "Hey Gringo", link: "https://open.spotify.com/track/4aPeeN8IYOCMNBGI0p7169?si=3b9743dba4d1466d", albumCover: "https://link-to-album-cover.com/album22.jpg", artist: "KALEO" },
-        { title: "Nexa", link: "https://open.spotify.com/track/4wbFHTS5Pdk3VZZ0cpKwTL?si=abd94463104943e5", albumCover: "https://link-to-album-cover.com/album23.jpg", artist: "Slug Bug" },
-        { title: "Lunatic Actions", link: "https://open.spotify.com/track/3VMxrD3P2Lj4Pkr0PqaVcv?si=97d19324b5bb4785", albumCover: "https://link-to-album-cover.com/album24.jpg", artist: "Cats and Dragons" }
+        { title: "My Favorite Girl Loves Reading", link: "https://open.spotify.com/track/1y25WaAvFJos46JJGjE0pA?si=7a38a523644c4774", albumCover: "images/reading.jpeg", artist: "Foxtide" },
+        { title: "Hey Gringo", link: "https://open.spotify.com/track/4aPeeN8IYOCMNBGI0p7169?si=3b9743dba4d1466d", albumCover: "images/hey.jpg", artist: "KALEO" },
+        { title: "Nexa", link: "https://open.spotify.com/track/4wbFHTS5Pdk3VZZ0cpKwTL?si=abd94463104943e5", albumCover: "images/nexa.jpg", artist: "Slug Bug" },
+        { title: "Lunatic Actions", link: "https://open.spotify.com/track/3VMxrD3P2Lj4Pkr0PqaVcv?si=97d19324b5bb4785", albumCover: "images/cats.jpeg", artist: "Cats and Dragons" }
       ],
       slow: [
-        { title: "Sunset Canyon", link: "https://open.spotify.com/track/3kXrgO7Sl0jgURAv7boX5q?si=99d3e07382344057", albumCover: "https://link-to-album-cover.com/album25.jpg", artist: "Foxwarren" },
-        { title: "Watch Your Mouth", link: "https://open.spotify.com/track/4DHLopEsKDwQBgucGKJuzj?si=67046aecdefc4c11", albumCover: "https://link-to-album-cover.com/album26.jpg", artist: "The Backseat Lovers" },
-        { title: "Robbers", link: "https://open.spotify.com/track/06cCziAHtDg6pcsidZHu03?si=0d9f601cd3dd4996", albumCover: "https://link-to-album-cover.com/album27.jpg", artist: "The 1975" },
-        { title: "Out Of My Head", link: "https://open.spotify.com/track/5tOjRq5shlEdm15nmJBq7Z?si=9b9cd7e9a5f24d33", albumCover: "https://link-to-album-cover.com/album29.jpg", artist: "Fastball" },
+        { title: "Sunset Canyon", link: "https://open.spotify.com/track/3kXrgO7Sl0jgURAv7boX5q?si=99d3e07382344057", albumCover: "images/fox.jpg", artist: "Foxwarren" },
+        { title: "Watch Your Mouth", link: "https://open.spotify.com/track/4DHLopEsKDwQBgucGKJuzj?si=67046aecdefc4c11", albumCover: "images/watch.jpeg", artist: "The Backseat Lovers" },
+        { title: "Robbers", link: "https://open.spotify.com/track/06cCziAHtDg6pcsidZHu03?si=0d9f601cd3dd4996", albumCover: "images/19751.jpg", artist: "The 1975" },
+        { title: "Out Of My Head", link: "https://open.spotify.com/track/5tOjRq5shlEdm15nmJBq7Z?si=9b9cd7e9a5f24d33", albumCover: "images/fastball.jpg", artist: "Fastball" },
       ],
       other: [
-        { title: "Evergreen", link: "https://open.spotify.com/track/2bUyKAHjQ58o6gQNh5uyf1?si=e039998f8ab142e1", albumCover: "https://link-to-album-cover.com/album29.jpg", artist: "Mt. Joy" },
-        { title: "The Other Way", link: "https://open.spotify.com/track/4uYBMuSp7kUN8TLrOW0KoJ?si=e7e269b4b7d046c8", albumCover: "https://link-to-album-cover.com/album30.jpg", artist: "Michigander" },
-        { title: "City Kitty", link: "https://open.spotify.com/track/7hyXvklwSf9ceS0EpV6ial?si=2b9d29f4cb4c4242", albumCover: "https://link-to-album-cover.com/album31.jpg", artist: "French Cassettes" },
-        { title: "Sincerity Is Scary", link: "https://open.spotify.com/track/6HguG9HRb1Ke1bhihfE4m8?si=8d6105b767ea4241", albumCover: "https://link-to-album-cover.com/album32.jpg", artist: "The 1975" }
+        { title: "Evergreen", link: "https://open.spotify.com/track/2bUyKAHjQ58o6gQNh5uyf1?si=e039998f8ab142e1", albumCover: "images/ever.jpeg", artist: "Mt. Joy" },
+        { title: "The Other Way", link: "https://open.spotify.com/track/4uYBMuSp7kUN8TLrOW0KoJ?si=e7e269b4b7d046c8", albumCover: "images/mi.jpg", artist: "Michigander" },
+        { title: "City Kitty", link: "https://open.spotify.com/track/7hyXvklwSf9ceS0EpV6ial?si=2b9d29f4cb4c4242", albumCover: "images/kitty.jpeg", artist: "French Cassettes" },
+        { title: "Sincerity Is Scary", link: "https://open.spotify.com/track/6HguG9HRb1Ke1bhihfE4m8?si=8d6105b767ea4241", albumCover: "images/19752.jpg", artist: "The 1975" }
       ],
       random: [
-        { title: "Knees", link: "https://open.spotify.com/track/7fE9r2qOJmjgruk3TdW4MD?si=29cdf9d3d1d048ce", albumCover: "https://link-to-album-cover.com/album33.jpg", artist: "Ocean Alley" },
-        { title: "Trun The Lights Back On", link: "https://open.spotify.com/track/1KTemUlHzS0SvVtTjY1NTw?si=0a5d170327a4411a", albumCover: "https://link-to-album-cover.com/album34.jpg", artist: "Billy Joel" },
-        { title: "Chop Suey", link: "https://open.spotify.com/track/705miw0hD4bBwyO4MtksqX?si=16473d62359f49df", albumCover: "https://link-to-album-cover.com/album35.jpg", artist: "Brother Son" },
-        { title: "Run Boy Run", link: "https://open.spotify.com/track/0boS4e6uXwp3zAvz1mLxZS?si=37e8e60537f24964", albumCover: "https://link-to-album-cover.com/album36.jpg", artist: "Woodkid" }
+        { title: "Knees", link: "https://open.spotify.com/track/7fE9r2qOJmjgruk3TdW4MD?si=29cdf9d3d1d048ce", albumCover: "images/ocean.jpeg", artist: "Ocean Alley" },
+        { title: "Trun The Lights Back On", link: "https://open.spotify.com/track/1KTemUlHzS0SvVtTjY1NTw?si=0a5d170327a4411a", albumCover: "images/billy.jpg", artist: "Billy Joel" },
+        { title: "Chop Suey", link: "https://open.spotify.com/track/705miw0hD4bBwyO4MtksqX?si=16473d62359f49df", albumCover: "images/chop.jpg", artist: "Brother Son" },
+        { title: "Run Boy Run", link: "https://open.spotify.com/track/0boS4e6uXwp3zAvz1mLxZS?si=37e8e60537f24964", albumCover: "images/run.jpeg", artist: "Woodkid" }
       ]
     },
   
