@@ -29,28 +29,28 @@ const personDatabases = {
   
     julia: {
       upbeat: [
-        { title: "Levitating - Dua Lipa", link: "https://open.spotify.com/track/4nbt8jF47tAFdD5KD6yWn0", albumCover: "https://link-to-album-cover.com/album21.jpg", artist: "Dua Lipa" },
-        { title: "Don't Start Now - Dua Lipa", link: "https://open.spotify.com/track/6sF5DAfuxTEZ9rB2soOOvD", albumCover: "https://link-to-album-cover.com/album22.jpg", artist: "Dua Lipa" },
-        { title: "Physical - Dua Lipa", link: "https://open.spotify.com/track/1jOoBbM34jZJtTgyvVV1i2", albumCover: "https://link-to-album-cover.com/album23.jpg", artist: "Dua Lipa" },
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album24.jpg", artist: "The Weeknd" }
+        { title: "My Favorite Girl Loves Reading", link: "https://open.spotify.com/track/1y25WaAvFJos46JJGjE0pA?si=7a38a523644c4774", albumCover: "https://link-to-album-cover.com/album21.jpg", artist: "Foxtide" },
+        { title: "Hey Gringo", link: "https://open.spotify.com/track/4aPeeN8IYOCMNBGI0p7169?si=3b9743dba4d1466d", albumCover: "https://link-to-album-cover.com/album22.jpg", artist: "KALEO" },
+        { title: "Nexa", link: "https://open.spotify.com/track/4wbFHTS5Pdk3VZZ0cpKwTL?si=abd94463104943e5", albumCover: "https://link-to-album-cover.com/album23.jpg", artist: "Slug Bug" },
+        { title: "Lunatic Actions", link: "https://open.spotify.com/track/3VMxrD3P2Lj4Pkr0PqaVcv?si=97d19324b5bb4785", albumCover: "https://link-to-album-cover.com/album24.jpg", artist: "Cats and Dragons" }
       ],
       slow: [
-        { title: "Shallow - Lady Gaga & Bradley Cooper", link: "https://open.spotify.com/track/4QXMduElh9HzSxAfyEwBzC", albumCover: "https://link-to-album-cover.com/album25.jpg", artist: "Lady Gaga & Bradley Cooper" },
-        { title: "When We Were Young - Adele", link: "https://open.spotify.com/track/0rTiUjiSTlqVsXB4A7aE1w", albumCover: "https://link-to-album-cover.com/album26.jpg", artist: "Adele" },
-        { title: "The One That Got Away - Katy Perry", link: "https://open.spotify.com/track/2g6UNmjm7lkQYX3h49Mf52", albumCover: "https://link-to-album-cover.com/album27.jpg", artist: "Katy Perry" },
-        { title: "Slow Hands - Niall Horan", link: "https://open.spotify.com/track/7LLOHfaRGjV56miVE7Atzv", albumCover: "https://link-to-album-cover.com/album28.jpg", artist: "Niall Horan" }
+        { title: "Sunset Canyon", link: "https://open.spotify.com/track/3kXrgO7Sl0jgURAv7boX5q?si=99d3e07382344057", albumCover: "https://link-to-album-cover.com/album25.jpg", artist: "Foxwarren" },
+        { title: "Watch Your Mouth", link: "https://open.spotify.com/track/4DHLopEsKDwQBgucGKJuzj?si=67046aecdefc4c11", albumCover: "https://link-to-album-cover.com/album26.jpg", artist: "The Backseat Lovers" },
+        { title: "Robbers", link: "https://open.spotify.com/track/06cCziAHtDg6pcsidZHu03?si=0d9f601cd3dd4996", albumCover: "https://link-to-album-cover.com/album27.jpg", artist: "The 1975" },
+        { title: "Out Of My Head", link: "https://open.spotify.com/track/5tOjRq5shlEdm15nmJBq7Z?si=9b9cd7e9a5f24d33", albumCover: "https://link-to-album-cover.com/album29.jpg", artist: "Fastball" },
       ],
       other: [
-        { title: "Royals - Lorde", link: "https://open.spotify.com/track/5tItnMj3z1c4gk8GQh6yJ0", albumCover: "https://link-to-album-cover.com/album29.jpg", artist: "Lorde" },
-        { title: "Faded - Alan Walker", link: "https://open.spotify.com/track/60nZkp17gdpH4lqH9ng2h3", albumCover: "https://link-to-album-cover.com/album30.jpg", artist: "Alan Walker" },
-        { title: "Perfect - Ed Sheeran", link: "https://open.spotify.com/track/4nyzlkJ2Jw7mgNoPY2bBrX", albumCover: "https://link-to-album-cover.com/album31.jpg", artist: "Ed Sheeran" },
-        { title: "Something Just Like This - The Chainsmokers & Coldplay", link: "https://open.spotify.com/track/1Tyl8SbiKwf38BX3jsNmr9", albumCover: "https://link-to-album-cover.com/album32.jpg", artist: "The Chainsmokers & Coldplay" }
+        { title: "Evergreen", link: "https://open.spotify.com/track/2bUyKAHjQ58o6gQNh5uyf1?si=e039998f8ab142e1", albumCover: "https://link-to-album-cover.com/album29.jpg", artist: "Mt. Joy" },
+        { title: "The Other Way", link: "https://open.spotify.com/track/4uYBMuSp7kUN8TLrOW0KoJ?si=e7e269b4b7d046c8", albumCover: "https://link-to-album-cover.com/album30.jpg", artist: "Michigander" },
+        { title: "City Kitty", link: "https://open.spotify.com/track/7hyXvklwSf9ceS0EpV6ial?si=2b9d29f4cb4c4242", albumCover: "https://link-to-album-cover.com/album31.jpg", artist: "French Cassettes" },
+        { title: "Sincerity Is Scary", link: "https://open.spotify.com/track/6HguG9HRb1Ke1bhihfE4m8?si=8d6105b767ea4241", albumCover: "https://link-to-album-cover.com/album32.jpg", artist: "The 1975" }
       ],
       random: [
-        { title: "Bad Guy - Billie Eilish", link: "https://open.spotify.com/track/5NgTk4WmNJ1r98eP4PaQ6G", albumCover: "https://link-to-album-cover.com/album33.jpg", artist: "Billie Eilish" },
-        { title: "Circles - Post Malone", link: "https://open.spotify.com/track/0nT6XKp3X1dyau8vc0xy6h", albumCover: "https://link-to-album-cover.com/album34.jpg", artist: "Post Malone" },
-        { title: "Starboy - The Weeknd", link: "https://open.spotify.com/track/7oxC9tN8xd1D3hqqVjeTXC", albumCover: "https://link-to-album-cover.com/album35.jpg", artist: "The Weeknd" },
-        { title: "Levitating - Dua Lipa", link: "https://open.spotify.com/track/4nbt8jF47tAFdD5KD6yWn0", albumCover: "https://link-to-album-cover.com/album36.jpg", artist: "Dua Lipa" }
+        { title: "Knees", link: "https://open.spotify.com/track/7fE9r2qOJmjgruk3TdW4MD?si=29cdf9d3d1d048ce", albumCover: "https://link-to-album-cover.com/album33.jpg", artist: "Ocean Alley" },
+        { title: "Trun The Lights Back On", link: "https://open.spotify.com/track/1KTemUlHzS0SvVtTjY1NTw?si=0a5d170327a4411a", albumCover: "https://link-to-album-cover.com/album34.jpg", artist: "Billy Joel" },
+        { title: "Chop Suey", link: "https://open.spotify.com/track/705miw0hD4bBwyO4MtksqX?si=16473d62359f49df", albumCover: "https://link-to-album-cover.com/album35.jpg", artist: "Brother Son" },
+        { title: "Run Boy Run", link: "https://open.spotify.com/track/0boS4e6uXwp3zAvz1mLxZS?si=37e8e60537f24964", albumCover: "https://link-to-album-cover.com/album36.jpg", artist: "Woodkid" }
       ]
     },
   
