@@ -74,7 +74,7 @@ const personDatabases = {
         { title: "LOVE", link: "https://open.spotify.com/track/6PGoSes0D9eUDeeAafB2As?si=31724d1fd22b40a4", albumCover: "images/damn.png", artist: "Kendrick Lamar (Feat. Zacari)" },
         { title: "Fill In The Blank", link: "https://open.spotify.com/track/0SVvyfRMFMRJzc0L2odX20?si=6789f0f380394ec3", albumCover: "images/car.png.jpeg", artist: "Car Sear Headrest" },
         { title: "Witches", link: "https://open.spotify.com/track/5BBK1WoaiD3b3sJ2UysLuM?si=fe5ef2b2f68a47b8", albumCover: "images/door.jpeg", artist: "Allice Pheobe Lou" },
-        { title: "rises the moon", link: "https://open.spotify.com/track/51Grh1RyUDcMBbpuyUIUHI?si=179418a9533d4c80", albumCover: "images/flores.jpg", artist: "Liana Flores" }
+        { title: "rises the moon", link: "https://open.spotify.com/track/51Grh1RyUDcMBbpuyUIUHI?si=179418a9533d4c80", albumCover: "images/flores.jpg", artist: "Liana Flores" },
         { title: "I Wish I Was Stephen Malkmus", link: "https://open.spotify.com/track/0MXwuLvZU9cauIEXlMZcdC?si=8696a915ca8747f4", albumCover: "https://link-to-album-cover.com/album52.jpg", artist: "beabadoobee" }
       ],
       random: [
@@ -82,7 +82,7 @@ const personDatabases = {
         { title: "Lover, You Should've Come Over", link: "https://open.spotify.com/track/6Jv7kjGkhY2fT4yuBF3aTz?si=50ee691101db49d5", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Jeff Buckley" },
         { title: "Vanilla Swirl", link: "https://open.spotify.com/track/07IGOY9oq3wMaM0y6hAoll?si=c7d6d00f004a4337", albumCover: "https://link-to-album-cover.com/album54.jpg", artist: "Mark Whalen" },
         { title: "You Might Be Sleeping", link: "https://open.spotify.com/track/2KvbRojbZGMsWr1Nuj5n2f?si=f504b4c388ed4f99", albumCover: "https://link-to-album-cover.com/album55.jpg", artist: "Jakob & Clairo" },
-        { title: "Naruto Themed Sexting", link: "https://open.spotify.com/track/3yoGVIY5OrRIBvNA9PYOS7?si=f7981af3fbf54b0f", albumCover: "https://link-to-album-cover.com/album56.jpg", artist: "Panucci's Pizza" }
+        { title: "Naruto Themed Sexting", link: "https://open.spotify.com/track/3yoGVIY5OrRIBvNA9PYOS7?si=f7981af3fbf54b0f", albumCover: "https://link-to-album-cover.com/album56.jpg", artist: "Panucci's Pizza" },
         { title: "recently,", link: "https://open.spotify.com/track/1djCoU5rvnq2zXFyD2iqq4?si=e01eba7f42d6432b", albumCover: "images/flores.jpg", artist: "Liana Flores" }
       ]
     },
