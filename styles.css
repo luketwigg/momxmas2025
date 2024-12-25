@@ -25,12 +25,18 @@ header {
 }
 
 header h1 {
-    font-size: 28px;
+    font-size: 40px;
     color: #fff;
 }
 
 header p {
-    margin-top: 10px;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #fff;
+}
+
+header h2 {
+    margin-top: 20px;
     font-size: 14px;
     color: #fff;
 }
