@@ -1,23 +1,23 @@
 
 const personDatabases = {
-    adam: {
+    dad: {
       upbeat: [
-        { title: "Blinding Lights - The Weeknd", link: "https://open.spotify.com/track/0VjIjW4GlUZAMYdJRU1I4t", albumCover: "https://link-to-album-cover.com/album1.jpg", artist: "The Weeknd" },
-        { title: "Shape of You - Ed Sheeran", link: "https://open.spotify.com/track/0hrBpAOgrt8VXdx8a1X4b2", albumCover: "https://link-to-album-cover.com/album2.jpg", artist: "Ed Sheeran" },
-        { title: "Uptown Funk - Mark Ronson ft. Bruno Mars", link: "https://open.spotify.com/track/0g1OsbIoBDleIi9Z1BvFqt", albumCover: "https://link-to-album-cover.com/album3.jpg", artist: "Mark Ronson ft. Bruno Mars" },
+        { title: "You Only Live Once", link: "https://open.spotify.com/track/4fPBB44eDH71YohayI4eKV?si=4b5e1def134c425f", albumCover: "images/stroke.jpeg", artist: "The Strokes" },
+        { title: "This Life", link: "https://open.spotify.com/track/4dRqYKhLVujxiBXcq50YzG?si=91aff99c9a954389", albumCover: "images/vamp.jpg", artist: "Vampire Weekend" },
+        { title: "Fancy Like", link: "https://open.spotify.com/track/58UKC45GPNTflCN6nwCUeF?si=ba2ca7e2db014bb5", albumCover: "images/ab67616d0000b273cc1ed62132516aabf6ef8751.jpeg", artist: "Walker Hayes" },
         { title: "Can't Stop the Feeling! - Justin Timberlake", link: "https://open.spotify.com/track/0A4B2H8LgP7zQOSW0YbdxX", albumCover: "https://link-to-album-cover.com/album4.jpg", artist: "Justin Timberlake" }
       ],
       slow: [
-        { title: "Someone Like You - Adele", link: "https://open.spotify.com/track/4kYwe8vnEgfIc0IEX9daGR", albumCover: "https://link-to-album-cover.com/album5.jpg", artist: "Adele" },
-        { title: "Stay - Rihanna", link: "https://open.spotify.com/track/2QqOEc5AK8UxuUy9Q6mB8C", albumCover: "https://link-to-album-cover.com/album6.jpg", artist: "Rihanna" },
-        { title: "Let Her Go - Passenger", link: "https://open.spotify.com/track/1av4g78IMfN0vFkLjqNZZP", albumCover: "https://link-to-album-cover.com/album7.jpg", artist: "Passenger" },
-        { title: "All of Me - John Legend", link: "https://open.spotify.com/track/5pJ3e8Jm5vLrxY6y74rWvc", albumCover: "https://link-to-album-cover.com/album8.jpg", artist: "John Legend" }
+        { title: "Harmony Hall", link: "https://open.spotify.com/track/4fPBB44eDH71YohayI4eKV?si=4b5e1def134c425f", albumCover: "images/vamp.jpg", artist: "Vampire Weekend" },
+        { title: "I Will Be Here", link: "https://open.spotify.com/track/7w0CEIlW8kcomXPgxQ55Hj?si=07cd3f6bd3024584", albumCover: "images/stu.jpeg", artist: "Steven Curtis Chapman" },
+        { title: "I Won't Let You Go", link: "https://open.spotify.com/track/6beEbu3P1snG0GAGDNyOtp?si=f8d596e43c134750", albumCover: "images/switchfoot.jpg", artist: "Switchfoot" },
+        { title: "Make You Feel My Love", link: "https://open.spotify.com/track/5FgPwJ7Nh2FVmIXviKl2VF?si=88e0db1ed42d4960", albumCover: "images/19.png", artist: "Adele" }
       ],
       other: [
-        { title: "Bohemian Rhapsody - Queen", link: "https://open.spotify.com/track/7vBQxVQ7u5V07eoiXY0X6g", albumCover: "https://link-to-album-cover.com/album9.jpg", artist: "Queen" },
-        { title: "Take Me to Church - Hozier", link: "https://open.spotify.com/track/0Xz2G5R3XY0gnmLBdl0tt6", albumCover: "https://link-to-album-cover.com/album10.jpg", artist: "Hozier" },
+        { title: "I Wanna Be Yours", link: "https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n?si=a811c3e957304087", albumCover: "images/i.jpeg", artist: "Arctic Monkeys" },
+        { title: "We Can Work It Out", link: "https://open.spotify.com/track/1hTUFqJuQAMjXVGwUPWDqi?si=c15c9652b7534284", albumCover: "images/beatles.jpg", artist: "The Beatles" },
         { title: "Clocks - Coldplay", link: "https://open.spotify.com/track/0r5rYbu4tq55wdl1pHugxF", albumCover: "https://link-to-album-cover.com/album11.jpg", artist: "Coldplay" },
-        { title: "Smells Like Teen Spirit - Nirvana", link: "https://open.spotify.com/track/6Ej8FJklKFdeB0KftN5Yln", albumCover: "https://link-to-album-cover.com/album12.jpg", artist: "Nirvana" }
+        { title: "Northern Attitude", link: "https://open.spotify.com/track/5FgPwJ7Nh2FVmIXviKl2VF?si=88e0db1ed42d4960", albumCover: "images/noah.jpg", artist: "Noah Kahan" }
       ],
       random: [
         { title: "Old Town Road - Lil Nas X", link: "https://open.spotify.com/track/2cFZlVlx9a69D7RMT3bO5X", albumCover: "https://link-to-album-cover.com/album13.jpg", artist: "Lil Nas X" },
