@@ -56,8 +56,8 @@ const personDatabases = {
   
     ian: {
       upbeat: [
-        { title: "Until Then", link: "https://open.spotify.com/track/0jnI2o0HKJrRglMwp3nIVJ?si=1c80e58da471447a", albumCover: "images/jack.jpg", artist: "Chumpfrey" },
-        { title: "Hello Hello Hello", link: "https://open.spotify.com/track/1xNknVNOolLB4oQeEtNBX2?si=ba5732e6af874408", albumCover: "images/remi.png", artist: "Remi Wolf" },
+        { title: "Until Then", link: "https://open.spotify.com/track/0jnI2o0HKJrRglMwp3nIVJ?si=1c80e58da471447a", albumCover: "images/jack.jpeg", artist: "Chumpfrey" },
+        { title: "Hello Hello Hello", link: "https://open.spotify.com/track/1xNknVNOolLB4oQeEtNBX2?si=ba5732e6af874408", albumCover: "images/remi.jpeg", artist: "Remi Wolf" },
         { title: "Casual Encounters", link: "https://open.spotify.com/track/3rK5Wr5xSep1gHRLettcnO?si=16071e0f4d754e57", albumCover: "images/beach.jpg", artist: "Bench Fuzz & Natalie Crane" },
         { title: "Omw", link: "https://open.spotify.com/track/3LqH8V4gEdmuH0mUjbceRc?si=57d779c288204849", albumCover: "images/omw.jpeg", artist: "((( O ))) & FKJ" },
         { title: "Gonna Bleach My Eyebrows", link: "https://open.spotify.com/track/3zQHfHufmH496jyJmRrccJ?si=cce6f98fb6f640bd", albumCover: "images/bleach.jpeg", artist: "Alemeda" }
@@ -66,7 +66,7 @@ const personDatabases = {
         { title: "Nomad", link: "https://open.spotify.com/track/4WJPxTsvWIdRZ9vMtqk7fj?si=6aad2bf457574524", albumCover: "images/clairoglory.png", artist: "Clairo" },
         { title: "Open My Door", link: "https://open.spotify.com/track/1A8QcZJKhUmJwdqzoAahvR?si=0fe27638556c479f", albumCover: "images/witches.jpg", artist: "Alice Phoebe Lou" },
         { title: "Bushel Hyde", link: "https://open.spotify.com/track/6oeRdUqXFfueEqxEKU4Mbd?si=c3f1fb415d6841e1", albumCover: "images/pratt.jpg", artist: "Jessica Pratt" },
-        { title: "Call It Fate, Call It Karma", link: "https://open.spotify.com/track/3Y4rUyw7XBCK6hGHCOt6rp?si=4bf7f7c3492b4f87", albumCover: "https://link-to-album-cover.com/album47.jpg", artist: "The Strokes" },
+        { title: "Call It Fate, Call It Karma", link: "https://open.spotify.com/track/3Y4rUyw7XBCK6hGHCOt6rp?si=4bf7f7c3492b4f87", albumCover: "images/fate.jpeg", artist: "The Strokes" },
         { title: "Road Head", link: "https://open.spotify.com/track/5rQEom98vgByjAZ4kIw2kL?si=7824e41b0f5840b9", albumCover: "images/head.jpeg", artist: "Japanese Breakfast" }
       ],
       other: [
@@ -75,14 +75,14 @@ const personDatabases = {
         { title: "Fill In The Blank", link: "https://open.spotify.com/track/0SVvyfRMFMRJzc0L2odX20?si=6789f0f380394ec3", albumCover: "images/car.png.jpeg", artist: "Car Sear Headrest" },
         { title: "Witches", link: "https://open.spotify.com/track/5BBK1WoaiD3b3sJ2UysLuM?si=fe5ef2b2f68a47b8", albumCover: "images/door.jpeg", artist: "Allice Pheobe Lou" },
         { title: "rises the moon", link: "https://open.spotify.com/track/51Grh1RyUDcMBbpuyUIUHI?si=179418a9533d4c80", albumCover: "images/flores.jpg", artist: "Liana Flores" },
-        { title: "I Wish I Was Stephen Malkmus", link: "https://open.spotify.com/track/0MXwuLvZU9cauIEXlMZcdC?si=8696a915ca8747f4", albumCover: "https://link-to-album-cover.com/album52.jpg", artist: "beabadoobee" }
+        { title: "I Wish I Was Stephen Malkmus", link: "https://open.spotify.com/track/0MXwuLvZU9cauIEXlMZcdC?si=8696a915ca8747f4", albumCover: "images/bee.jpeg", artist: "beabadoobee" }
       ],
       random: [
-        { title: "Wolfcat", link: "https://open.spotify.com/track/1Hu2OypX8tMPwBcCUaAeO4?si=7116958f5d724540", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Still Woozy" },
-        { title: "Lover, You Should've Come Over", link: "https://open.spotify.com/track/6Jv7kjGkhY2fT4yuBF3aTz?si=50ee691101db49d5", albumCover: "https://link-to-album-cover.com/album53.jpg", artist: "Jeff Buckley" },
-        { title: "Vanilla Swirl", link: "https://open.spotify.com/track/07IGOY9oq3wMaM0y6hAoll?si=c7d6d00f004a4337", albumCover: "https://link-to-album-cover.com/album54.jpg", artist: "Mark Whalen" },
-        { title: "You Might Be Sleeping", link: "https://open.spotify.com/track/2KvbRojbZGMsWr1Nuj5n2f?si=f504b4c388ed4f99", albumCover: "https://link-to-album-cover.com/album55.jpg", artist: "Jakob & Clairo" },
-        { title: "Naruto Themed Sexting", link: "https://open.spotify.com/track/3yoGVIY5OrRIBvNA9PYOS7?si=f7981af3fbf54b0f", albumCover: "https://link-to-album-cover.com/album56.jpg", artist: "Panucci's Pizza" },
+        { title: "Wolfcat", link: "https://open.spotify.com/track/1Hu2OypX8tMPwBcCUaAeO4?si=7116958f5d724540", albumCover: "images/woozy.jpeg", artist: "Still Woozy" },
+        { title: "Lover, You Should've Come Over", link: "https://open.spotify.com/track/6Jv7kjGkhY2fT4yuBF3aTz?si=50ee691101db49d5", albumCover: "images/lover.jpeg", artist: "Jeff Buckley" },
+        { title: "Vanilla Swirl", link: "https://open.spotify.com/track/07IGOY9oq3wMaM0y6hAoll?si=c7d6d00f004a4337", albumCover: "images/mark.jpg", artist: "Mark Whalen" },
+        { title: "You Might Be Sleeping", link: "https://open.spotify.com/track/2KvbRojbZGMsWr1Nuj5n2f?si=f504b4c388ed4f99", albumCover: "images/jakob.jpg", artist: "Jakob & Clairo" },
+        { title: "Naruto Themed Sexting", link: "https://open.spotify.com/track/3yoGVIY5OrRIBvNA9PYOS7?si=f7981af3fbf54b0f", albumCover: "images/sex.jpg", artist: "Panucci's Pizza" },
         { title: "recently,", link: "https://open.spotify.com/track/1djCoU5rvnq2zXFyD2iqq4?si=e01eba7f42d6432b", albumCover: "images/flores.jpg", artist: "Liana Flores" }
       ]
     },
